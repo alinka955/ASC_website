@@ -1,0 +1,254 @@
+.header{
+    color: rgba(153, 0, 0, 1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 1em;
+}
+
+body{
+    background-color: rgba(0, 0, 102, 1);
+    font-family: sans-serif;
+}
+
+.body-frame {
+    margin: 2em;
+    background-color: white;
+    position: relative;
+    height: 60em;
+    text-align: center;
+    padding: 2em;
+}
+
+.input_fields_container{
+    font-weight: 0;
+}
+
+.logo_main_page{
+    width:30%;
+    display:flex;
+    padding-bottom: 30px;
+}
+
+.submit_btn{
+    background-color: rgba(153, 0, 0, 1);
+    color: white;
+    border: 0px;
+    border-radius: 0.3em;
+    box-shadow: 1px 1px 3px grey;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+input{
+    width: 30em;
+    height: 2em;
+    margin: 5px; 
+}
+
+.img {
+  width: 10px;
+}
+
+.top_menu{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.top_menu_buttons{    
+    background-color: rgba(153, 0, 0, 1);
+    color: white;
+    padding: 5px;
+    width: 8em;
+    height: 1.2em;
+    margin:4px;
+  
+    box-shadow: 1px 1px 3px grey;
+}
+
+.div_top_menu_buttons{
+  display: flex;
+
+
+}
+
+.instructions{
+    margin-top:2em;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgba(153, 0, 0, 1);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgba(153, 0, 0, 1);
+  }
+  
+
+  .dropdown {
+    width: 57%;
+    margin-left: 280px;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    width: 100%;
+  }
+  
+button{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 1.5em;
+    box-shadow: 1px 1px 3px grey;
+}
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content-courses a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+  }
+
+  .dropdown-content-courses{
+        
+        position: relative;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        width: 100%;
+  }
+
+  .dropdown-content-courses a:hover {background-color: #ddd;}
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  a{
+    text-decoration: none;
+  }
+
+  span{
+    color: red;
+  }
+
+  input{
+    font-size: 16px;
+  }
+
+  .material-symbols-outlined{
+    color: white;
+  }
+
+  /* from https://www.bootdey.com/snippets/view/time-table#css, with some modifications */
+
+  .container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    overflow-y: auto;
+  }
+
+  .selected {
+    border: 2px solid black;
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  body {
+      margin-top:20px;
+  }
+  .bg-blue {
+      background-color: rgba(0, 0, 102, 1);
+  }
+
+  .bg-red {
+    background-color: rgba(153, 0, 0, 1);
+  }
+
+  .bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+  .table-bordered thead td, .table-bordered thead th {
+      border-bottom-width: 2px;
+  }
+  .table thead th {
+      vertical-align: bottom;
+      border-bottom: 2px solid #dee2e6;
+  }
+  .table-bordered td, .table-bordered th {
+      border: 3px solid #dee2e6;
+  }
+
+  .font-size14 {
+      font-size: 14px;
+  }
+
+  .text-light-gray {
+      color: #d6d5d5;
+  }
+  .font-size13 {
+      font-size: 13px;
+  }
+
+  .table-bordered td, .table-bordered th {
+      border: 1px solid #dee2e6;
+  }
+  .table td, .table th {
+      padding: .75rem;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+  }
+
+  .event {
+    background-color: rgba(153, 0, 0, 1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 16px;
+  }
+
+  .time {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .entry:hover {
+    border: 1px solid black;
+  }
+
+  .day-of-week {
+    display: none;
+  }
